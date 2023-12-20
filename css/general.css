@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #dee2e6;
+  /* position: relative; */
+}
+
+/* styles of app container form */
+
+.p-down {
+  color: #e52a5a !important;
+}
+.p-up {
+  color: #39b385 !important;
+}
+.display-none {
+  display: none !important;
+}
+.disappear {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}

@@ -1,0 +1,402 @@
+/* App section styles */
+
+.app-container {
+  position: relative;
+  background-color: #dee2e6;
+}
+.app-main-header {
+  border-top: 8px solid #1971c2;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
+  width: 100%;
+  height: 8rem;
+  padding: 2rem 4rem;
+  margin-bottom: 2.5rem;
+  justify-content: space-between;
+  background-color: #e9ecef;
+}
+.app-main-logo {
+  width: 10rem;
+  height: 10rem;
+}
+.app-brand-name {
+  font-size: 2.8rem;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+}
+.app-main-info {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-maininfo-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  transition: all ease 200ms;
+  cursor: pointer;
+}
+.welcome-message {
+  text-align: center;
+  color: #868e96b6;
+}
+.balance-box {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.balance-amount-box {
+  width: 90%;
+  padding: 3rem 6rem;
+  box-shadow: 0 0 10px rgba(92, 92, 92, 0.145);
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9ecef;
+}
+.balance-amount {
+  font-size: 5rem;
+  font-weight: 700;
+  /* width: 25rem; */
+  text-align: center;
+}
+.balance-label {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+.btn-effect-balance {
+  padding: 1.4rem 2.8rem;
+  font-size: 2.4rem;
+  color: #fff;
+  background-color: #1971c2;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  transition: all ease 400ms;
+  cursor: pointer;
+}
+.btn-effect-balance:hover {
+  background-color: #1864ab;
+}
+.app-content {
+  padding: 7rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19rem;
+}
+
+.cc-box {
+  width: 70rem;
+  height: 45rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.299);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.cc-titles-list {
+  list-style: none;
+  display: flex;
+  width: 65%;
+  margin-left: auto;
+  justify-content: space-between;
+}
+.cc-title-item {
+  width: 7.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #868e96;
+}
+/* .cc-title-name {
+  width: 5rem;
+  text-align: left;
+} */
+.non-cc-item {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.cc-list {
+  height: 75%;
+  overflow-y: scroll;
+  list-style: none;
+}
+.cc-item {
+  padding: 2.25rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  cursor: pointer;
+}
+.cc-item:hover {
+  background-color: #f2f3f4;
+}
+.num-icon {
+  width: 2rem;
+  height: 2rem;
+  /* color: #1971c2; */
+}
+.coin-icon {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+.coin-name,
+.coin-price,
+.coin-precent,
+.coin-amount {
+  font-size: 1.6rem;
+}
+.cc-item div {
+  width: 7rem;
+  text-align: center;
+}
+.cc-foter {
+  padding: 2.5rem;
+  box-shadow: 0 0 10px rgba(92, 92, 92, 0.145);
+  background-color: #e9ecef;
+}
+.movements-box {
+  width: 50rem;
+  height: 40rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.299);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.movements-header,
+.cc-header {
+  padding: 2.2rem;
+  /* border-top: 4px solid #1971c2; */
+  box-shadow: 0 0 10px rgba(92, 92, 92, 0.145);
+  background-color: #e9ecef;
+}
+.cc-header {
+  padding: 2.2rem 3.7rem 1.4rem;
+}
+.movemets-heading,
+.cc-heading {
+  font-size: 2rem;
+  color: #1971c2;
+  text-align: center;
+}
+.cc-heading {
+  margin-bottom: 2rem;
+}
+.movements-list {
+  overflow-y: scroll;
+  height: 65%;
+  list-style: none;
+}
+.movements-item {
+  padding: 2.25rem 4rem;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+.movements-type-deposit {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+.movements-type-withdrawal {
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+}
+.movements-type {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  padding: 0.1rem 1rem;
+  border-radius: 10rem;
+  margin-right: 2rem;
+}
+.movements-value {
+  font-size: 1.7rem;
+  margin-left: auto;
+}
+.movements-footer {
+  padding: 1.7rem;
+  /* border-bottom: 4px solid #1971c2; */
+  box-shadow: 0 0 10px rgba(92, 92, 92, 0.145);
+  background-color: #e9ecef;
+}
+.btn-sort {
+  padding: 1rem 1rem;
+  font-size: 1.7rem;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  color: #868e96;
+  transition: all ease 400ms;
+}
+.btn-sort:hover {
+  color: #343a40;
+}
+.app-footer {
+  padding: 7rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  width: 90%;
+  background-color: #e9ecef;
+  padding: 0.6rem;
+  border-radius: 11px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #868e96;
+}
+
+/* Responsive app section styles */
+@media (max-width: 84em) {
+  .app-main-header {
+    padding: 2rem 2rem;
+  }
+  .app-content {
+    gap: 5rem;
+    padding: 6rem 2rem;
+  }
+  .cc-box {
+    width: 60rem;
+  }
+  .movements-box {
+    width: 45rem;
+  }
+}
+@media (max-width: 65em) {
+  .app-content {
+    flex-direction: column;
+  }
+  .movements-box {
+    width: 60rem;
+  }
+}
+@media (max-width: 39em) {
+  .welcome-message {
+    margin-bottom: 2rem;
+  }
+  .balance-amount-box {
+    width: 100%;
+    padding: 3rem 6rem;
+    background-color: #dee2e6;
+  }
+  .balance-box {
+    width: 100%;
+    padding: 2rem 0;
+  }
+  .balance-amount {
+    font-size: 4rem;
+  }
+  .cc-box {
+    width: 50rem;
+  }
+  .cc-item {
+    padding: 2.25rem 1rem;
+  }
+  .movements-box {
+    width: 50rem;
+  }
+  .cc-header {
+    padding: 2.2rem 1rem 1.4rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .app-main-logo {
+    width: 8rem;
+    height: 8rem;
+  }
+  .app-main-info {
+    width: 8rem;
+    height: 8rem;
+  }
+  .app-brand-name {
+    font-size: 2.2rem;
+  }
+  .balance-amount-box {
+    padding: 2rem 3rem;
+    box-shadow: 0 0 10px rgba(92, 92, 92, 0.145);
+    border-radius: 0;
+    background-color: #e9ecef;
+  }
+  .balance-amount {
+    font-size: 2.8rem;
+    width: 9rem;
+  }
+  .balance-label {
+    font-size: 1.6rem;
+  }
+  .btn-effect-balance {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.8rem;
+  }
+  .app-content {
+    padding: 0;
+    gap: 8rem;
+  }
+
+  .coin-name,
+  .coin-price,
+  .coin-precent,
+  .coin-amount {
+    font-size: 1.2rem;
+  }
+  .cc-box {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .cc-item {
+    padding: 2.25rem 0;
+    gap: 1rem;
+  }
+  .movements-box {
+    width: 100%;
+    border-radius: 0;
+  }
+  .list-num,
+  .coin-icon-box {
+    width: 5rem !important;
+  }
+  .cc-titles-list {
+    gap: 2.5rem;
+  }
+  .num-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .cc-titles-list {
+    width: 71%;
+  }
+  .balance-box {
+    padding: 0rem;
+  }
+  .app-footer {
+    padding: 2rem 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .copyright {
+    width: 100%;
+    padding: 4rem;
+    border-radius: 0;
+    line-height: 1.8;
+  }
+  .movements-type {
+    font-size: 0.9rem;
+  }
+  .movements-value {
+    font-size: 1.4rem;
+    margin-left: auto;
+  }
+}

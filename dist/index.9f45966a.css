@@ -1,0 +1,72 @@
+.shadow-cover-maininfo {
+  background-color: #3333339e;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.app-maininfo-box {
+  background-color: #fafafa;
+  border-radius: 14px;
+  width: 45rem;
+  margin-top: 8rem;
+  padding: 3rem;
+  position: fixed;
+}
+
+.heading-information {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+}
+
+.information-box {
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.information-box p {
+  font-size: 1.4rem;
+}
+
+.btn-closeinfo-box {
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  display: flex;
+}
+
+.btn-information-close {
+  color: #dee2e6;
+  cursor: pointer;
+  background-color: #1971c2;
+  border: none;
+  border-radius: 11px;
+  padding: 1.4rem 2.8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: all .4s;
+}
+
+.btn-information-close:hover {
+  background-color: #1864ab;
+}
+
+@media (width <= 30em) {
+  .app-maininfo-box {
+    width: 34rem;
+    height: 45rem;
+  }
+
+  .btn-closeinfo-box {
+    height: 15%;
+  }
+}
+
+/*# sourceMappingURL=index.9f45966a.css.map */

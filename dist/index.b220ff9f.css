@@ -1,0 +1,169 @@
+.effect-balance-cover {
+  background-color: #3333339e;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 12rem 0;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.effect-balance-box {
+  background-color: #fafafa;
+  border-radius: 14px;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  height: 50rem;
+  padding: 3rem;
+  display: flex;
+  position: fixed;
+}
+
+.close-balance-effect {
+  color: #fafafa;
+  cursor: pointer;
+  width: 2.4rem;
+  height: 2.4rem;
+  position: fixed;
+  top: 7rem;
+  left: 5rem;
+}
+
+.acc-num-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 1.4rem;
+  font-size: 1.7rem;
+}
+
+.exchange-mode-box {
+  background-color: #dee2e6;
+  border-radius: 11px;
+  width: 40%;
+  height: 5rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.exchange-mode {
+  color: #dee2e6;
+  cursor: pointer;
+  border-radius: 11px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 95%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  transition: all .5s;
+  display: flex;
+}
+
+.deposit {
+  background-color: #39b385;
+  transform: translateX(0);
+}
+
+.withdrawal {
+  background-color: #e03131;
+  transform: translateX(100%);
+}
+
+.exchange-form {
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  display: flex;
+}
+
+.exchange-form-item {
+  flex-direction: column;
+  gap: .6rem;
+  width: 70%;
+  display: flex;
+}
+
+.exchange-label {
+  font-size: 1.7rem;
+}
+
+.exchange-input {
+  border: 1px solid #868e968d;
+  border-radius: 11px;
+  padding: .8rem;
+  font-size: 1.6rem;
+}
+
+.exchange-input:focus {
+  outline: 1px solid #1971c2;
+}
+
+.warning-balance-box {
+  width: 70%;
+  margin-top: -.4rem;
+}
+
+.warning-balance {
+  text-align: left;
+  color: #e03131;
+  opacity: 0;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.warning-appear {
+  opacity: 100;
+}
+
+.exchange-btn-box {
+  margin-top: 3rem;
+}
+
+.btn-submit-exchange {
+  color: #dee2e6;
+  cursor: pointer;
+  background-color: #1971c2;
+  border: none;
+  border-radius: 11px;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: all .4s;
+}
+
+.btn-submit-exchange:hover {
+  background-color: #1864ab;
+}
+
+@media (width <= 30em) {
+  .effect-balance-box {
+    width: 34rem;
+    height: 50rem;
+    padding: 1.5rem;
+  }
+
+  .exchange-mode {
+    font-size: 1.1rem;
+  }
+
+  .exchange-label {
+    font-size: 1.4rem;
+  }
+
+  .acc-num-heading {
+    margin-bottom: 2.8rem;
+    font-size: 1.5rem;
+  }
+
+  .warning-balance {
+    font-size: 1.1rem;
+  }
+}
+
+/*# sourceMappingURL=index.b220ff9f.css.map */

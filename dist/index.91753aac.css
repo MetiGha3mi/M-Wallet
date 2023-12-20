@@ -1,0 +1,193 @@
+.login-section {
+  background-color: #dee2e6;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem 1.5rem 10rem;
+  display: flex;
+  position: relative;
+}
+
+.app-info {
+  position: absolute;
+  top: 8%;
+  right: 10%;
+}
+
+.app-info-icon {
+  cursor: pointer;
+  width: 2.4rem;
+  height: 2.4rem;
+  transition: all .2s;
+}
+
+.app-info-icon:hover {
+  color: #121212;
+}
+
+.login-sec-header {
+  margin: 2rem 0;
+}
+
+.app-logo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.form-box {
+  border-radius: 11px;
+  width: 40rem;
+  height: 70%;
+  display: flex;
+  overflow: hidden;
+}
+
+.login-form {
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  display: flex;
+}
+
+.brand-name {
+  text-align: center;
+  color: #1971c2;
+  font-family: Orbitron, sans-serif;
+  font-size: 2rem;
+}
+
+.form-message {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.form-item {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.form-label {
+  font-size: 1.4rem;
+}
+
+.form-input {
+  border: 1px solid #0000004c;
+  border-radius: 12px;
+  height: 3rem;
+  padding: .6rem;
+  font-size: 1.5rem;
+}
+
+.form-input:focus {
+  outline: 1px solid #1971c2;
+}
+
+.form-input::placeholder {
+  color: #bbb;
+  font-size: 1.4rem;
+}
+
+.warning-login-box {
+  width: 100%;
+  margin-top: -.4rem;
+}
+
+.warning-login {
+  color: #e03131;
+  opacity: 0;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.submitlogin-btn-box {
+  justify-content: center;
+  margin-top: 1.2rem;
+  display: flex;
+}
+
+.btn-login-submit {
+  color: #fefefe;
+  cursor: pointer;
+  background-color: #1971c2;
+  border: none;
+  border-radius: 16px;
+  padding: 1.8rem 3rem;
+  font-size: 1.5rem;
+}
+
+.btn-login-submit:hover {
+  background-color: #1864ab;
+}
+
+.login-footer {
+  width: 90%;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.creator-info {
+  justify-content: space-around;
+  align-items: center;
+  gap: .6rem;
+  width: 100%;
+  display: flex;
+}
+
+.creator-name {
+  font-family: Fredoka One, sans-serif;
+  font-size: 1.5rem;
+}
+
+.creator-email:link, .creator-email:visited, .creator-email:hover, .creator-email:active {
+  color: inherit;
+  font-family: Fredoka One, sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.warning-appear {
+  opacity: 100;
+}
+
+@media (width <= 28em) {
+  .login-sec-header {
+    margin: 0;
+  }
+
+  .form-box {
+    width: 33rem;
+    height: 65%;
+    margin-bottom: 4rem;
+  }
+
+  .form-message, .form-label {
+    font-size: 1.2rem;
+  }
+
+  .creator-info {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .creator-name {
+    font-size: 1.3rem;
+  }
+
+  .creator-email:link {
+    font-size: 1.1rem;
+  }
+
+  .warning-login {
+    font-size: 1.2rem;
+  }
+}
+
+/*# sourceMappingURL=index.91753aac.css.map */

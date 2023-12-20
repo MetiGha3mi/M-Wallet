@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #333;
+  background-color: #dee2e6;
+  font-family: Roboto, sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+.p-down {
+  color: #e52a5a !important;
+}
+
+.p-up {
+  color: #39b385 !important;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.disappear {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
+/*# sourceMappingURL=index.c1ccc107.css.map */

@@ -1,0 +1,57 @@
+/* First info box styles */
+
+.shadow-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.621);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-info-box {
+  width: 40rem;
+  height: 40rem;
+  background-color: #fafafa;
+  border-radius: 14px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.close-app-info {
+  color: #fafafa;
+  width: 2.4rem;
+  height: 2.4rem;
+  position: fixed;
+  top: 7rem;
+  left: 5rem;
+  cursor: pointer;
+}
+.first-acc-box,
+.second-acc-box {
+  width: 100%;
+  height: 48%;
+  background-color: #dee2e6;
+  border-radius: 14px;
+  overflow: hidden;
+  padding: 2rem;
+}
+.acc-heading {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.account-username {
+  margin-bottom: 2rem;
+}
+.acc-info {
+  display: flex;
+  justify-content: space-between;
+}
+.acc-info p {
+  font-size: 1.4rem;
+}

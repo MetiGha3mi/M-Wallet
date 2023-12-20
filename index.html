@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Safies wallet in the world for saving your currencies"
+    />
+    <meta name="author" content="metiGha3mi@gmail.com" />
+    <link rel="shortcut icon" type="image/png" href="favIcon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Orbitron:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Orbitron:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/login-styles.css" />
+    <link rel="stylesheet" href="css/firstinfo-styles.css" />
+    <link rel="stylesheet" href="css/app-styles.css" />
+    <link rel="stylesheet" href="css/secondinfo-styles.css" />
+    <link rel="stylesheet" href="css/deposit-withdrawar.css" />
+    <link rel="stylesheet" href="css/cc-e-styles.css" />
+    <title>M Wallet</title>
+  </head>
+  <body>
+    <!-- Login section -->
+    <section class="login-section">
+      <!-- Users info at for loging in -->
+      <span class="app-info"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="app-info-icon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+          />
+          <path
+            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+          /></svg
+      ></span>
+      <div class="shadow-cover disappear">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="close-app-info"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+          />
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+          />
+        </svg>
+        <div class="app-info-box">
+          <div class="first-acc-box">
+            <h3 class="first-acc-heading acc-heading">First account info</h3>
+            <div class="account-username acc-info">
+              <p class="username-l">Username:</p>
+              <p class="username-v">MetiGhasemi</p>
+            </div>
+            <div class="account-password acc-info">
+              <p class="password-l">Password:</p>
+              <p class="password-v">1111</p>
+            </div>
+          </div>
+          <div class="second-acc-box">
+            <h3 class="second-acc-heading acc-heading">Second account info</h3>
+            <div class="account-username acc-info">
+              <p class="username-l">Username:</p>
+              <p class="username-v">JhonSmith</p>
+            </div>
+            <div class="account-password acc-info">
+              <p class="password-l">Password:</p>
+              <p class="password-v">2222</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="login-sec-header">
+        <div class="app-logo-box">
+          <img src="Mwalleticon.png" alt="M Wallet icon" class="app-logo" />
+        </div>
+      </header>
+      <div class="form-box">
+        <form action="#" class="login-form">
+          <h2 class="brand-name">M Wallet</h2>
+          <span class="form-message"
+            >Welcome, please login to your account</span
+          >
+          <div class="username-box form-item">
+            <label for="usernameLabel" class="username-label form-label"
+              >Enter your username:</label
+            >
+            <input
+              type="text"
+              id="usernameLabel"
+              class="login-username-input form-input"
+              placeholder="username"
+            />
+          </div>
+          <div class="password-box form-item">
+            <label for="passwordLabel" class="password-label form-label"
+              >Enter your password:</label
+            >
+            <input
+              type="password"
+              id="passwordLabel"
+              class="login-password-input form-input"
+              placeholder="password"
+            />
+          </div>
+          <div class="warning-login-box">
+            <span class="warning-login">Warning Message!</span>
+          </div>
+          <div class="submitlogin-btn-box">
+            <button class="btn-login-submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <footer class="login-footer">
+        <div class="creator-info">
+          <p class="creator-name">Created by Meti Ghasemi</p>
+          <a href="mailto:metiGha3mi@gmail.com" class="creator-email"
+            >MetiGha3mi@gmail.com</a
+          >
+        </div>
+      </footer>
+    </section>
+    <!-- Application section -->
+    <main class="app-container display-none">
+      <header class="app-main-header">
+        <div class="app-logo-mainbox">
+          <img
+            src="Mwalleticon.png"
+            alt="M wallet logo"
+            class="app-main-logo"
+          />
+        </div>
+        <h1 class="app-brand-name">M Wallet</h1>
+        <div class="app-main-info">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="app-maininfo-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+            />
+            <path
+              d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+            />
+          </svg>
+        </div>
+        <!-- Application info -->
+        <div class="shadow-cover-maininfo disappear">
+          <div class="app-maininfo-box">
+            <h3 class="heading-information">Information</h3>
+            <div class="information-box">
+              <p>This is a test web application created by Meti Ghasemi.</p>
+              <p>
+                This web application allows us to working with trasformations of
+                crypto currencies and working with own bank account.
+              </p>
+              <p>
+                you can deposit or withdrawal money, buy and sell a currency,
+                transform currency to another account, exchange currencies and
+                so on.
+              </p>
+              <p>
+                This is not a real app and data of this is unuseless and it's
+                just for showing of creator's abilities
+              </p>
+            </div>
+            <div class="btn-closeinfo-box">
+              <button class="btn-information-close">Got it</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <h2 class="welcome-message">Welcome to your account user</h2>
+      <section class="app-section">
+        <div class="balance-box">
+          <div class="balance-amount-box">
+            <div class="balance-label-box">
+              <p class="balance-label">Balance:</p>
+              <!-- <p class="balance-date">
+                As of <span class="date">05/03/2037</span>
+              </p> -->
+            </div>
+            <span class="balance-amount">100$</span>
+            <button class="btn-effect-balance">&DownArrowUpArrow;</button>
+          </div>
+          <div class="effect-balance-cover disappear">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="close-balance-effect"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+            <div class="effect-balance-box">
+              <h3 class="acc-num-heading">
+                account: <span class="acc-num"></span>
+              </h3>
+              <div class="exchange-mode-box">
+                <div class="exchange-mode deposit">Deposit</div>
+              </div>
+              <form action="#" class="exchange-form">
+                <div class="exchange-form-item">
+                  <label
+                    for="amountVal"
+                    class="amount-value-label exchange-label"
+                    >Amount:</label
+                  >
+                  <input
+                    type="number"
+                    class="amount-value-input exchange-input"
+                    id="amountVal"
+                  />
+                </div>
+                <div class="exchange-form-item">
+                  <label for="pinVal" class="Pin-value-label exchange-label"
+                    >Your pin:</label
+                  >
+                  <input
+                    type="password"
+                    class="pin-value-input exchange-input"
+                    id="pinVal"
+                  />
+                </div>
+                <div class="warning-balance-box">
+                  <span class="warning-balance">Warning Message!</span>
+                </div>
+                <div class="exchange-btn-box">
+                  <button class="btn-submit-exchange">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="app-content">
+          <div class="cc-box">
+            <header class="cc-header">
+              <h2 class="cc-heading">Crypto currencies</h2>
+              <ul class="cc-titles-list">
+                <li class="cc-title-item cc-title-name">name</li>
+                <li class="cc-title-item">price</li>
+                <li class="cc-title-item">24h %</li>
+                <li class="cc-title-item">amount</li>
+              </ul>
+            </header>
+            <ul class="cc-list">
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img
+                    src="coins/btc.png"
+                    alt="BTC,Bitcoin"
+                    class="coin-icon"
+                  />
+                </div>
+                <div class="coin-name">Bitcoin BTC</div>
+                <div class="coin-price">$23,013.00</div>
+                <div class="coin-precent p-down">&downarrow; 0.47%</div>
+                <div class="coin-amount bitcoin-amount">0</div>
+              </li>
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img
+                    src="coins/eth.png"
+                    alt="ETH,Ethereum"
+                    class="coin-icon"
+                  />
+                </div>
+                <div class="coin-name">Ethereum ETH</div>
+                <div class="coin-price">$1,578.89</div>
+                <div class="coin-precent p-down">&downarrow; 0.61%</div>
+                <div class="coin-amount ethereum-amount">0</div>
+              </li>
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z"
+                    />
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img
+                    src="coins/usdt.png"
+                    alt="USDT,Tether"
+                    class="coin-icon"
+                  />
+                </div>
+                <div class="coin-name">Tether USDT</div>
+                <div class="coin-price">$1.00</div>
+                <div class="coin-precent p-up">&uparrow; 0.00%</div>
+                <div class="coin-amount tether-amount">0</div>
+              </li>
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M7.519 5.057c.22-.352.439-.703.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z"
+                    />
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img src="coins/bnb.png" alt="BNB" class="coin-icon" />
+                </div>
+                <div class="coin-name">BNB</div>
+                <div class="coin-price">$308.87</div>
+                <div class="coin-precent p-down">&downarrow; 1.28%</div>
+                <div class="coin-amount binance-amount">0</div>
+              </li>
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8Zm15 0A8 8 0 1 0 0 8a8 8 0 0 0 16 0Zm-8.006 4.158c-1.57 0-2.654-.902-2.719-2.115h1.237c.14.72.832 1.031 1.529 1.031.791 0 1.57-.597 1.57-1.681 0-.967-.732-1.57-1.582-1.57-.767 0-1.242.45-1.435.808H5.445L5.791 4h4.705v1.103H6.875l-.193 2.343h.064c.17-.258.715-.68 1.611-.68 1.383 0 2.561.944 2.561 2.585 0 1.687-1.184 2.806-2.924 2.806Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img src="coins/xrp.png" alt="XRP" class="coin-icon" />
+                </div>
+                <div class="coin-name">XRP</div>
+                <div class="coin-price">$0.3991</div>
+                <div class="coin-precent p-down">&downarrow; 0.99%</div>
+                <div class="coin-amount ripple-amount">0</div>
+              </li>
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.21 3.855c1.612 0 2.515.99 2.573 1.899H9.494c-.1-.358-.51-.815-1.312-.815-1.078 0-1.817 1.09-1.805 3.036h.082c.229-.545.855-1.155 1.98-1.155 1.254 0 2.508.88 2.508 2.555 0 1.77-1.218 2.783-2.847 2.783-.932 0-1.84-.328-2.409-1.254-.369-.603-.597-1.459-.597-2.642 0-3.012 1.248-4.407 3.117-4.407Zm-.099 4.008c-.92 0-1.564.65-1.564 1.576 0 1.032.703 1.635 1.558 1.635.868 0 1.553-.533 1.553-1.629 0-1.06-.744-1.582-1.547-1.582Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img
+                    src="coins/ada.png"
+                    alt="ADA, Cardano"
+                    class="coin-icon"
+                  />
+                </div>
+                <div class="coin-name">Cardano ADA</div>
+                <div class="coin-price">$0.3758</div>
+                <div class="coin-precent p-down">&downarrow; 4.21%</div>
+                <div class="coin-amount cardano-amount">0</div>
+              </li>
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM5.37 5.11V4.001h5.308V5.15L7.42 12H6.025l3.317-6.82v-.07H5.369Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img
+                    src="coins/doge.png"
+                    alt="DOGE,Dogecoin"
+                    class="coin-icon"
+                  />
+                </div>
+                <div class="coin-name">Dogecoin DOGE</div>
+                <div class="coin-price">$0.08985</div>
+                <div class="coin-precent p-down">&downarrow; 3.42%</div>
+                <div class="coin-amount dogecoin-amount">0</div>
+              </li>
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-5.03 1.803c0 1.394-1.218 2.355-2.988 2.355-1.763 0-2.953-.955-2.953-2.344 0-1.271.95-1.851 1.647-2.003v-.065c-.621-.193-1.33-.738-1.33-1.781 0-1.225 1.09-2.121 2.66-2.121s2.654.896 2.654 2.12c0 1.061-.738 1.595-1.336 1.782v.065c.703.152 1.647.744 1.647 1.992Zm-4.347-3.71c0 .739.586 1.255 1.383 1.255s1.377-.516 1.377-1.254c0-.733-.58-1.23-1.377-1.23s-1.383.497-1.383 1.23Zm-.281 3.645c0 .838.72 1.412 1.664 1.412.943 0 1.658-.574 1.658-1.412 0-.843-.715-1.424-1.658-1.424-.944 0-1.664.58-1.664 1.424Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img
+                    src="coins/ltc.png"
+                    alt="LTC,Litecoin"
+                    class="coin-icon"
+                  />
+                </div>
+                <div class="coin-name">Litecoin LTC</div>
+                <div class="coin-price">$94.44</div>
+                <div class="coin-precent p-down">&downarrow; 0.16%</div>
+                <div class="coin-amount litecoin-amount">0</div>
+              </li>
+              <li class="cc-item">
+                <div class="list-num">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="num-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.223 4.146c-1.593 0-2.425-.89-2.52-1.798h1.296c.1.357.539.72 1.248.72 1.36 0 1.88-1.353 1.834-3.023h-.076c-.235.627-.873 1.184-1.934 1.184-1.395 0-2.566-.961-2.566-2.666 0-1.711 1.242-2.731 2.87-2.731 1.512 0 2.971.867 2.971 4.014 0 2.836-1.02 4.3-3.123 4.3Zm.118-3.972c.808 0 1.535-.528 1.535-1.594s-.668-1.676-1.56-1.676c-.838 0-1.517.616-1.517 1.659 0 1.072.708 1.61 1.54 1.61Z"
+                    />
+                  </svg>
+                </div>
+                <div class="coin-icon-box">
+                  <img src="coins/trx.png" alt="TRX,Tron" class="coin-icon" />
+                </div>
+                <div class="coin-name">Tron TRX</div>
+                <div class="coin-price">$0.06201</div>
+                <div class="coin-precent p-down">&downarrow; 0.86%</div>
+                <div class="coin-amount tron-amount">0</div>
+              </li>
+            </ul>
+            <footer class="cc-foter"></footer>
+          </div>
+          <div class="movements-box">
+            <header class="movements-header">
+              <h2 class="movemets-heading">All movements</h2>
+            </header>
+            <ul class="movements-list">
+              <li class="movements-item">
+                <div class="movements-type movements-type-deposit">
+                  1 deposit
+                </div>
+                <div class="movements-value">200$</div>
+              </li>
+              <li class="movements-item">
+                <div class="movements-type movements-type-deposit">
+                  2 deposit
+                </div>
+                <div class="movements-value">100$</div>
+              </li>
+              <li class="movements-item">
+                <div class="movements-type movements-type-withdrawal">
+                  3 witdrawals
+                </div>
+                <div class="movements-value">-300$</div>
+              </li>
+              <li class="movements-item">
+                <div class="movements-type movements-type-deposit">
+                  4 deposit
+                </div>
+                <div class="movements-value">100$</div>
+              </li>
+            </ul>
+            <footer class="movements-footer">
+              <button class="btn-sort">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-down"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  />
+                </svg>
+                <span>sort</span>
+              </button>
+            </footer>
+          </div>
+        </div>
+        <div class="cc-cover display-none">
+          <header class="cc-cover-header">
+            <div class="btn-cc-back">&leftarrow; Back</div>
+            <h1 class="cc-brand-name">M Wallet</h1>
+            <div class="app-logo-cc">
+              <img
+                src="Mwalleticon.png"
+                alt="M wallet logo"
+                class="app-cc-logo"
+              />
+            </div>
+          </header>
+          <div class="cc-e-box">
+            <header class="cc-e-header">
+              <div class="cc-e-info">
+                <div class="cc-e-namebox">
+                  <div class="cc-e-iconbox">
+                    <img
+                      src="coins/btc.png"
+                      alt="Bitcoin,BTC"
+                      class="cc-e-icon"
+                    />
+                  </div>
+                  <h2 class="coin-name-heading">Bitcoin</h2>
+                  <span class="abbr-coin-name">btc</span>
+                </div>
+                <div class="rank-box">
+                  <span class="rank-label">Rank </span
+                  ><span class="rank-level">1#</span>
+                </div>
+              </div>
+              <div class="cc-e-statistics">
+                <div class="cc-price-box cc-s-box">
+                  <h3 class="cc-price-heading statistics-heading">price:</h3>
+                  <span class="cc-price-value statistics-value"
+                    >$23,013.00</span
+                  >
+                </div>
+                <div class="cc-precent-box cc-s-box">
+                  <h3 class="cc-precent-heading statistics-heading">24h %:</h3>
+                  <span class="cc-precent-value statistics-value p-down"
+                    >&downarrow; 0.47%</span
+                  >
+                </div>
+              </div>
+            </header>
+            <div class="recieve-address-box">
+              <p class="recieve-address-label">Your crypto address:</p>
+              <p class="recieve-address-value">MeTIGha3m1B1Tc0inWallet@ress</p>
+            </div>
+            <div class="cc-e-operation">
+              <div class="cce-buysell-box">
+                <h3 class="cce-operation-heading">buying or selling coins</h3>
+                <div class="ccebs-mode-box">
+                  <div class="cce-bs-mode buy">Buy</div>
+                </div>
+                <form action="#" class="cce-bs-form">
+                  <div class="ccebs-form-item">
+                    <label for="withVal" class="ccebs-with-label cce-bs-label"
+                      >With:</label
+                    >
+                    <div class="ccebs-with-select">
+                      <div class="usd-side">
+                        <div class="usd-side-iconbox">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="usd-side-icon"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"
+                            />
+                            <path
+                              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                            />
+                            <path
+                              d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"
+                            />
+                          </svg>
+                        </div>
+                        <span class="usd-side-label">USD</span>
+                      </div>
+                      <div class="usdt-side selected-side">
+                        <div class="usdt-side-iconbox">
+                          <img
+                            src="coins/usdt.png"
+                            alt="USDT, Tether icon"
+                            class="usdt-side-icon"
+                          />
+                        </div>
+                        <span class="usdt-side-label">USDT</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ccebs-form-item">
+                    <label
+                      for="amountbsVal"
+                      class="ccebs-amount-label cce-bs-label"
+                      >Amount:</label
+                    >
+                    <input
+                      type="number"
+                      id="amountbsVal"
+                      class="ccebs-amount-input cce-bs-input"
+                    />
+                  </div>
+                  <div class="ccebs-form-item">
+                    <label class="ccebs-res-label cce-bs-label"
+                      >Should pay:</label
+                    >
+                    <input
+                      type="text"
+                      class="ccebs-res-input cce-bs-input"
+                      disabled
+                    />
+                  </div>
+                  <div class="ccebs-btn-box">
+                    <button class="btn-submit-cce cce-btnbs-submit">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+                <span class="cce-bs-warning">You don't have enough coin</span>
+              </div>
+              <div class="cce-exchange-box">
+                <h3 class="cce-operation-heading">
+                  Exchange coin to other coins
+                </h3>
+                <p class="cceex-message">
+                  Exchange
+                  <span class="cceex-message-coinfromname">Bitcoin</span> to the
+                  <span class="cceex-message-cointoname">---</span>
+                </p>
+                <form action="#" class="cce-ex-form">
+                  <div class="cceex-form-item">
+                    <label for="fromVal" class="cceex-from-label cce-ex-label"
+                      >From:</label
+                    >
+                    <div class="cceex-from-select">
+                      <div class="cceex-formicon-box">
+                        <img
+                          src="coins/btc.png"
+                          alt="BTC,Bitcoin icon"
+                          class="cceex-from-icon"
+                        />
+                      </div>
+                      <span class="cceex-fromcoin-label">Bitcoin</span>
+                    </div>
+                  </div>
+                  <div class="cceex-form-item">
+                    <label for="toVal" class="cceex-to-label cce-ex-label"
+                      >To:</label
+                    >
+                    <div class="cceex-to-select">
+                      <div class="cceex-to-selected">
+                        <div class="cceex-tonameicon-box">
+                          <div class="cceex-selectedicon-box">
+                            <img
+                              src="coins/usdt.png"
+                              alt="coin icon"
+                              class="cceex-to-icon"
+                            />
+                          </div>
+                          <span class="cceex-tocoin-label">Tether</span>
+                        </div>
+                        <div class="cceex-tolisticon-box">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="cceex-tolist-icon cceex-todownlist-icon cceex-toliston-icon"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="cceex-tolist-icon cceex-touplist-icon"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <ul class="cceex-coins-list">
+                        <li class="cceex-coin-item num0-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/btc.png"
+                              alt="BTC,Bitcion icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Bitcoin</span>
+                        </li>
+                        <li class="cceex-coin-item num0-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/eth.png"
+                              alt="ETH,Ethereum icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Ethereum</span>
+                        </li>
+                        <li class="cceex-coin-item num1-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/usdt.png"
+                              alt="USDT,Tether icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Tether</span>
+                        </li>
+                        <li class="cceex-coin-item num2-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/bnb.png"
+                              alt="BNB,Binance icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Binance</span>
+                        </li>
+                        <li class="cceex-coin-item num3-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/xrp.png"
+                              alt="XRP,Ripple icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Ripple</span>
+                        </li>
+                        <li class="cceex-coin-item num4-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/ada.png"
+                              alt="ADA,Cardano icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Cardano</span>
+                        </li>
+                        <li class="cceex-coin-item num5-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/doge.png"
+                              alt="DOGE,Dogecoin icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Dogecoin</span>
+                        </li>
+                        <li class="cceex-coin-item num6-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/ltc.png"
+                              alt="LTC,litecoin icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Litecoin</span>
+                        </li>
+                        <li class="cceex-coin-item num7-cceex-coin">
+                          <div class="cceex-coiniconitem-box">
+                            <img
+                              src="coins/trx.png"
+                              alt="TRX,Tron icon"
+                              class="cceex-coinitem-icon"
+                            />
+                          </div>
+                          <span class="cceex-coinitem-name">Tron</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="cceex-form-item">
+                    <label
+                      for="amountexVal"
+                      class="cceex-amount-label cce-ex-label"
+                      >Amount:</label
+                    >
+                    <input
+                      type="number"
+                      id="amountexVal"
+                      class="cceex-amount-input cce-ex-input"
+                    />
+                  </div>
+                  <div class="cceex-btn-box">
+                    <button class="btn-submit-cce cce-btnexchange-submit">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+                <span class="cce-ex-warning">You don't have enough coin</span>
+              </div>
+              <div class="cce-send-box">
+                <h3 class="cce-operation-heading">Sending currency</h3>
+                <form action="#" class="cce-sn-form">
+                  <div class="ccesn-form-item">
+                    <div class="cce-attsend-box">
+                      <strong class="cce-attsend-label">Attention:</strong>
+                      <p class="cce-attsend-text">
+                        Please take care when you enter address of destiny
+                        wallet!. If you don't, it will send to other wallet or
+                        lost from your wallet and it will not back to your
+                        account again. Please be aware!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="ccesn-form-item">
+                    <label
+                      for="sendAmountVal"
+                      class="ccesn-sendamount-label cce-send-label"
+                      >Amount:</label
+                    >
+                    <input
+                      type="number"
+                      id="sendAmountVal"
+                      class="ccesn-sendamount-input cce-send-input"
+                    />
+                  </div>
+                  <div class="ccesn-form-item">
+                    <label
+                      for="addressVal"
+                      class="ccesn-address-label cce-send-label"
+                      >Destiny wallet address:</label
+                    >
+                    <input
+                      type="text"
+                      id="addressVal"
+                      class="ccesn-address-input cce-send-input"
+                    />
+                  </div>
+                  <div class="ccesn-btn-box">
+                    <button class="btn-submit-cce cce-btnsend-submit">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+                <span class="cce-sn-warning">You don't have enough coin</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="app-footer">
+        <div class="copyright">
+          Copyright © <span class="copyright-date">2023</span> by M Wallet. All
+          rights reserved.
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

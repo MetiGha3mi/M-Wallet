@@ -1,0 +1,513 @@
+/* CC Exchange section styles */
+
+.cc-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.cc-cover-header {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 6rem;
+  padding: 2rem;
+}
+.cc-brand-name {
+  font-size: 2.8rem;
+  font-family: "Orbitron", sans-serif;
+}
+.btn-cc-back {
+  font-size: 1.7rem;
+  color: #1971c2;
+  cursor: pointer;
+  transition: all ease 400ms;
+}
+.btn-cc-back:hover {
+  color: #1864ab;
+}
+.app-cc-logo {
+  width: 10rem;
+  height: 10rem;
+}
+.cc-e-box {
+  width: 130rem;
+  background-color: #e9ecef;
+  border-radius: 14px;
+  padding: 3rem;
+  position: relative;
+}
+.cc-e-header {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f7f7f8ec;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+.cc-e-info,
+.cc-e-statistics {
+  width: 50%;
+  height: 100%;
+  padding: 4rem;
+}
+.cc-e-namebox {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.6rem;
+}
+.cc-e-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.coin-name-heading {
+  font-size: 2.8rem;
+}
+.abbr-coin-name {
+  padding: 0.6rem 1rem;
+  font-size: 1.3rem;
+  border-radius: 11px;
+  background-color: #adb0b3;
+  font-weight: 700;
+}
+.rank-box {
+  font-size: 1.8rem;
+  padding: 1rem 1.4rem;
+  display: inline-block;
+  border-radius: 11px;
+  background-color: #dee2e6;
+  font-weight: 700;
+}
+.cc-s-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cc-price-box {
+  margin-bottom: 3rem;
+}
+.statistics-heading {
+  font-size: 2rem;
+}
+.statistics-value {
+  font-size: 1.8rem;
+}
+.recieve-address-box {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 11px;
+  background-color: #f7f7f8ec;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+}
+.recieve-address-label {
+  font-weight: 700;
+}
+.recieve-address-value {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.cc-e-operation {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+.cce-buysell-box,
+.cce-send-box,
+.cce-exchange-box {
+  width: 40rem;
+  /* height: 52.8rem; */
+  background-color: #fafafa;
+  border-radius: 14px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.cce-operation-heading {
+  font-size: 1.7rem;
+  padding: 1.2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.ccebs-mode-box {
+  width: 35%;
+  height: 3.5rem;
+  background-color: #dee2e6;
+  border-radius: 11px;
+  overflow: hidden;
+  margin-bottom: 4rem;
+  display: flex;
+}
+.cce-bs-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  border-radius: 11px;
+  width: 50%;
+  height: 100%;
+  color: #dee2e6;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all ease 500ms;
+}
+.buy {
+  background-color: #39b385;
+  transform: translateX(0);
+}
+.sell {
+  background-color: #e03131;
+  transform: translateX(100%);
+}
+.cce-bs-form,
+.cce-ex-form,
+.cce-sn-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.ccebs-form-item,
+.cceex-form-item,
+.ccesn-form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  width: 70%;
+}
+
+.cce-bs-label,
+.cce-ex-label,
+.cce-send-label {
+  font-size: 1.7rem;
+}
+.ccebs-with-select,
+.cceex-from-select,
+.cceex-to-select {
+  width: 100%;
+  background-color: #dee2e6;
+  display: flex;
+  border-radius: 11px;
+}
+.cceex-from-select,
+.cceex-to-select {
+  padding: 1rem;
+}
+.cceex-to-select {
+  cursor: pointer;
+  position: relative;
+}
+.cceex-from-select {
+  align-items: center;
+  gap: 0.8rem;
+}
+.cceex-tonameicon-box {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.cceex-to-selected {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cceex-tolist-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: #555;
+  display: none;
+}
+.cceex-toliston-icon {
+  display: inline-block;
+}
+.cceex-fromcoin-label,
+.cceex-tocoin-label {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.usd-side,
+.usdt-side {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+.usd-side-icon {
+  color: #39b385;
+}
+.usd-side-icon,
+.usdt-side-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.usd-side-label,
+.usdt-side-label {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.selected-side {
+  transition: all ease 400ms;
+  background-color: #adb0b3;
+  border-radius: 11px;
+}
+.cce-bs-input,
+.cce-send-input,
+.cce-ex-input {
+  padding: 0.8rem;
+  border: 1px solid #868e968d;
+  border-radius: 11px;
+  font-size: 1.6rem;
+}
+.ccebs-amount-input:focus,
+.cce-send-input:focus,
+.cce-ex-input:focus {
+  outline: 1px solid #1971c2;
+}
+.ccebs-btn-box,
+.cceex-btn-box,
+.ccesn-btn-box {
+  margin-top: 4rem;
+  position: relative;
+}
+.btn-submit-cce {
+  background-color: #1971c2;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 11px;
+  font-size: 1.6rem;
+  color: #dee2e6;
+  font-weight: 700;
+  transition: all ease 400ms;
+  cursor: pointer;
+}
+.btn-submit-cce:hover {
+  background-color: #1864ab;
+}
+/* seccond box */
+.cceex-coins-list {
+  position: absolute;
+  width: 23.8rem;
+  list-style: none;
+  height: 25rem;
+  background-color: #e9ecef;
+  z-index: 9999;
+  left: 0;
+  bottom: -540%;
+  border-radius: 9px;
+  overflow-y: scroll;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transform: translateY(-20%);
+  transition: all ease-in 400ms;
+}
+.open-cceexcoin-list .cceex-coins-list {
+  transform: translateY(0);
+  opacity: 100;
+  pointer-events: all;
+  visibility: visible;
+}
+.cceex-coin-item {
+  padding: 1rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  border-bottom: 1px solid #adb0b37e;
+}
+.num7-cceex-coin {
+  border: none;
+}
+.cceex-coin-item:hover {
+  background-color: #dee2e6b5;
+}
+.cceex-from-icon,
+.cceex-to-icon,
+.cceex-coinitem-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.cceex-coinitem-name {
+  font-size: 13px;
+  font-weight: 700;
+}
+.cceex-message {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+/* third box */
+.cce-attsend-box {
+  padding: 1.2rem 1rem;
+  background-color: #dee2e6;
+  border-radius: 11px;
+}
+.cce-attsend-label {
+  color: #e03131;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-bottom: 1.4rem;
+}
+.cce-attsend-text {
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+.cce-bs-warning,
+.cce-ex-warning,
+.cce-sn-warning {
+  font-size: 1.3rem;
+  color: #e03131;
+  font-weight: 700;
+  position: absolute;
+  bottom: 18%;
+  left: 21%;
+  opacity: 0;
+}
+.warning-cce-appear {
+  opacity: 100;
+}
+@media (max-width: 82em) {
+  .cc-e-box {
+    width: 110rem;
+  }
+  .cceex-coins-list {
+    width: 19.1rem;
+  }
+}
+
+@media (max-width: 69em) {
+  .cc-e-box {
+    width: 80rem;
+  }
+  .cc-e-operation {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  .cceex-coins-list {
+    width: 23.8rem;
+  }
+}
+@media (max-width: 50em) {
+  .cc-e-box {
+    width: 51.2rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .cc-e-box {
+    width: 43.2rem;
+  }
+  .cc-e-header {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+  }
+  .cc-e-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .cc-e-info,
+  .cc-e-statistics {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .cc-price-box {
+    margin-bottom: 1rem;
+  }
+  .cc-e-namebox {
+    margin-bottom: 0;
+  }
+  .cc-cover-header {
+    margin-bottom: 4rem;
+  }
+  .app-cc-logo {
+    width: 7rem;
+    height: 7rem;
+  }
+  .cce-buysell-box,
+  .cce-send-box,
+  .cce-exchange-box {
+    width: 34rem;
+    padding: 3rem 1rem;
+  }
+  .cceex-coins-list {
+    width: 22.4rem;
+  }
+  .coin-name-heading {
+    font-size: 2.2rem;
+  }
+  .abbr-coin-name {
+    font-size: 1rem;
+  }
+  .rank-box {
+    font-size: 1.4rem;
+  }
+  .statistics-heading {
+    font-size: 1.6rem;
+  }
+  .statistics-value {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .cc-cover {
+    padding: 2rem 0;
+  }
+  .cc-e-box {
+    padding: 3rem 0;
+    width: 100%;
+  }
+  .recieve-address-box {
+    border-radius: 0;
+  }
+  .cc-e-header {
+    border-radius: 0;
+  }
+  .cce-buysell-box,
+  .cce-send-box,
+  .cce-exchange-box {
+    width: 100%;
+  }
+  .cceex-coins-list {
+    width: 100%;
+  }
+  .recieve-address-label {
+    font-size: 1.2rem;
+  }
+  .recieve-address-value {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .cc-brand-name {
+    font-size: 2rem;
+  }
+}
